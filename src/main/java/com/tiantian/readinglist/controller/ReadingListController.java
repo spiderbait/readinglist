@@ -33,6 +33,7 @@ public class ReadingListController {
             model.addAttribute("books", readingList);
         }
         return "readingList";
+
     }
 
     @RequestMapping(value = "/{reader}", method = RequestMethod.POST)
